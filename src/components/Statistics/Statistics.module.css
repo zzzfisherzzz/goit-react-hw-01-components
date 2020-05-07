@@ -1,0 +1,83 @@
+.statisticsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid #000;    
+}
+
+.statisticBlock {
+    background-color: #e7ecf2;  
+    width: 375px;
+    height: 252px;
+    padding: 61px 54px;
+    box-shadow: 0 2px 2px rgba(2, 2, 2, 0.02);
+}
+
+.statistics {
+    width: 268px;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+.title {
+    padding: 30px 20px 28px 20px;
+    color: #475965;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.16px;
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: red;
+    width: 25%;
+    padding: 11px 17px 16px 11px;
+    /* text */
+}
+.item:nth-child(1) {
+    background: #ade3fb;
+}
+.item:nth-child(2) {
+    background: #a33cf2;
+}
+.item:nth-child(3) {
+    background: #e64c65;
+}
+.item:nth-child(4) {
+    background: #21b8c6;
+}
+
+
+
+
+.label {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 11px;
+}
+
+.percentage {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.45px;
+}

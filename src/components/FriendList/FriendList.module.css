@@ -1,0 +1,43 @@
+.wrapper {
+    padding-top: 100px;
+}
+
+.item {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0px auto 30px auto; 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+}
+.item:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.avatar {
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+}
+.name {
+    color: #475965;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.16px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green;
+    margin-right: 25px;
+}
+
+.status.online {
+    background: green;
+}
